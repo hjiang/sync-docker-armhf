@@ -3,7 +3,7 @@
 # VERSION               0.1
 #
 
-FROM debian
+FROM arm32v7/debian:latest
 MAINTAINER lazyseq@gmail.com
 LABEL com.resilio.version="2.6.3"
 
